@@ -12,7 +12,7 @@ export default {
 
 <style scoped>
   .inner {
-    max-width: 1140px;
+    max-width: 900px;
     margin: 0 auto;
   }
 </style>

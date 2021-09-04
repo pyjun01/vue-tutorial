@@ -1,7 +1,7 @@
 <template>
   <main>
     <Inner>
-      Hello, World!
+      <router-view />
     </Inner>
   </main>
 </template>
@@ -14,3 +14,9 @@ export default {
   components: { Inner },
 }
 </script>
+
+<style scoped>
+  main {
+    min-height: calc(100vh - 60px);
+  }
+</style>
